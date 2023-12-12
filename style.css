@@ -1,0 +1,103 @@
+body {
+    background-image: url(./img/iStock-531889697.jpg);
+    animation: change 20s infinite ease-in-out;
+
+    height: 150vh;
+}
+
+@keyframes change{
+    0%{
+        background-image: url(./img/pexels-brett-sayles-912364.jpg);
+        background-position: bottom;
+    }
+    25%{
+        background-image: url(./img/pexels-jill-wellington-3334585.jpg);
+        background-position: center;
+    }
+    50%{
+        background-image: url(./img/pexels-pixabay-258173.jpg);
+        background-position: center;
+    }
+    75%{
+        background-image: url(./img/pexels-pixabay-373481.jpg);
+        background-position: center;
+    }
+    100%{
+        background-image: url(./img/pexels-stanislav-kondratiev-2909083.jpg);
+        background-position: center;
+    }
+}
+
+#search {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+button {
+    margin: 5px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+#weather-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 900px;
+    margin: auto;    
+
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+.temp {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 68px;
+    margin: auto;
+}
+
+.weather-days {
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    width: 170px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#toDelete {
+    height: 100px;
+    margin-top: 0px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+strong {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
